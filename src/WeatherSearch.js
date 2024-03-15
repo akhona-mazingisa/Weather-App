@@ -33,7 +33,8 @@ export default function WeatherSearch() {
   let form = (
     <form onSubmit={handleSubmit}>
       <input type="search" placeholder="Enter a city.." onChange={updateCity} />
-      <button type="Submit">Search</button>
+      <button type="Submit" class="search-form-button">Search</button>
+      <button type="Submit" class="search-form-button">Current</button>
     </form>
   );
 
